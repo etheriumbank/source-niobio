@@ -3,6 +3,8 @@ Niobio development tree
 
 Niobio is a PoS-based cryptocurrency.
 
+Suport http://etheriumbank.xyz/
+
 Development process
 ===========================
 
@@ -30,3 +32,35 @@ in this manner will have their corresponding issue labeled 'stagnant'.
 Issues with no commits will be given a similar warning, and closed after
 15 days from their last activity. Issues closed in this manner will be 
 labeled 'stale'.
+
+
+
+mining 
+==========================
+rpcuser=you-user
+rpcpassword=you-password
+rpcport=22316
+port=22315
+#(0=off, 1=on) daemon - run in the background as a daemon and accept commands
+daemon=1
+#(0=off, 1=on) server - accept command line and JSON-RPC commands
+server=1
+txindex=1
+listen=1
+rpcallowip=**
+testnet=0
+
+Coin info
+===========================
+ALGO: SCRYPT
+COIN TYPE: POW / POS - HIBRID
+MINIMO AGE: 8 HOURS
+MAXIMO AGE: 30 DAYS
+STAKING: 2% ANUALY
+BLOCK TIME: 180 SEG
+CONFIRMATION: 10
+TOTAL SUPLY: 9882352941
+PREMINE: 15 %
+BLOCK HALVING: 160
+
+http://etheriumbank.xyz/
